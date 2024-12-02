@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meu Portfólio</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<body>
+    <header>
+        <h1>Jean Carlo Lopes Ferreira</h1>
+        <h2>Cientista de Dados</h2>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Cientista de Dados apaixonado por encontrar padrões em dados e traduzi-los em insights acionáveis. Possuo
+                fortes habilidades em comunicação e colaboração, o que me permite trabalhar eficazmente em equipes
+                multidisciplinares. Sou um aprendiz rápido e me mantenho atualizado com as últimas tendências em ciência
+                de dados. Busco um ambiente de trabalho dinâmico e desafiador, onde possa contribuir para o sucesso de
+                projetos inovadores</p>
+        </section>
+
+        <section id="projeto">
+            <h2>Projeto</h2>
+            <ul>
+                <li>
+                    <p>O Nim é um jogo estratégico que envolve a remoção de objetos de diferentes pilhas. Os jogadores
+                        alternam suas jogadas, retirando um número específico de objetos de uma única pilha. O objetivo
+                        é forçar o adversário a retirar o último objeto, perdendo a partida. O Nim é um clássico da
+                        teoria dos jogos e serve como excelente exemplo de como a matemática pode ser aplicada em jogos
+                        e estratégias.</P>
+
+                </li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através do e-mail: jeancarlo030519977@gmail.com</p>
+
+        </section>
+    </main>
+
+    <nav>
+        <a href="sobre_mim.html">Sobre</a>
+        <a href="jogo_nim.py">Projeto</a>
+        <a href="https://www.linkedin.com/in/jean-carlo-lopes-ferreira-0328641a1/">LinkedIn</a>
+    </nav>
+
+    <section id="home">...</section>
+    <section id="sobre">...</section>
+    <script>
+        // Função para evitar o botão "Voltar" (simplificado)
+        window.history.pushState(null, null, window.location.href);
+        window.onpopstate = function () {
+            window.history.go(1);
+        };
+    </script>
+
+    <footer>
+        <p>&copy; Jean Carlo Lopes Ferreira - 2023</p>
+    </footer>
+
+</body>
+
+</html>
